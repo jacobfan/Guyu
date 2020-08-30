@@ -15,7 +15,7 @@ python3 -u train.py --embed_dim 768 \
                       --max_len 256 \
                       --min_len 10 \
                       --world_size 4 \
-                      --gpus 4 \
+                      --gpus 1 \
                       --start_rank 0 \
                       --MASTER_ADDR localhost \
                       --MASTER_PORT 28512 \
