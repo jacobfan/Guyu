@@ -294,7 +294,8 @@ if __name__ == "__main__":
     print("done.")
     
     max_len  = 50
-    qs = ["庆余年", "我爱你"]
+    q = input(">")
+    qs = [q]
     print(qs)
     i = 0
     for q in qs:
