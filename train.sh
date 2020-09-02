@@ -8,7 +8,7 @@ python3 -u train.py --embed_dim 768 \
                       --vocab ./data/vocab.txt \
                       --min_occur_cnt 1 \
                       --batch_size 2 \
-                      --warmup_steps 10000 \
+                      --warmup_steps 1 \
                       --lr 1 \
                       --weight_decay 0 \
                       --smoothing 0.1 \
@@ -19,7 +19,7 @@ python3 -u train.py --embed_dim 768 \
                       --start_rank 0 \
                       --MASTER_ADDR localhost \
                       --MASTER_PORT 28512 \
-                      --print_every 100 \
+                      --print_every 1 \
                       --save_every 10000 \
                       --save_dir ckpt \
                       --backend nccl
