@@ -8,7 +8,7 @@ python3 -u train.py --embed_dim 768 \
                       --vocab ./data/vocab.txt \
                       --min_occur_cnt 1 \
                       --batch_size 2 \
-                      --warmup_steps 1 \
+                      --warmup_steps 10000 \
                       --lr 1 \
                       --weight_decay 0 \
                       --smoothing 0.1 \
